@@ -1,0 +1,35 @@
+{
+  "globals": {
+    "THREE": true,
+    "TweenMax": true,
+    "Elastic": true,
+    "Back": true,
+    "Expo": true,
+    "dat": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "rules": {
+    "eqeqeq": 1,
+    "curly": 1,
+    "no-console": 1,
+    "quotes": [
+      1, "single"
+    ]
+  },
+  "overrides": [
+    {
+      "files": [ "./src/**/*.js" ]
+    }
+  ]
+}

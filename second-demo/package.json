@@ -1,0 +1,45 @@
+{
+  "name": "interactive-repulsion-effect",
+  "version": "1.0.0",
+  "description": "interactive-repulsion-effect",
+  "main": "src/index.js",
+  "keywords": [
+    "Javascript",
+    "Threejs",
+    "Interactive",
+    "Repulsion",
+    "ES6"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iondrimba/interactive-repulsion-effect.git"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "Ion D. Filho <iondrimba@gmail.com> (https://iondrimbafilho.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-core": "^6.7.0",
+    "babel-loader": "^8.0.2",
+    "babel-polyfill": "^6.6.1",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.10.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "uglifyjs-webpack-plugin": "^2.0.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {}
+}
