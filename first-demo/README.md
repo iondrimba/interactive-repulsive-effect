@@ -2,11 +2,11 @@
 
 Repulsive Force Interaction demo on a grid of elements inside a 3D world using Threejs, Ion Drimba Filho
 
-![Image Title](link)
+![Image Title](https://raw.githubusercontent.com/iondrimba/images/master/perrin.gif)
 
 [Article on Codrops](https://tympanus.net/codrops/?p=36627)
 
-[Demo](http://tympanus.net/Development/.../)
+[Demo](https://tympanus.net/Tutorials/InteractiveRepulsionEffect/)
 
 ## Credits
 
