@@ -1,6 +1,6 @@
 import 'styles/index.scss';
 import Cone from './elements/cone';
-import Tourus from './elements/tourus';
+import Torus from './elements/torus';
 import Cylinder from './elements/cylinder';
 import { radians, map, distance } from './helpers';
 
@@ -14,7 +14,7 @@ export default class App {
     this.mouse3D = new THREE.Vector2();
     this.geometries = [
       new Cone(),
-      new Tourus(),
+      new Torus(),
       new Cylinder(),
     ];
 

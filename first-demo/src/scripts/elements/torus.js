@@ -1,6 +1,6 @@
 import { radians } from '../helpers';
 
-export default class Tourus {
+export default class Torus {
   constructor() {
     this.size = .25;
     this.geom = new THREE.TorusGeometry(this.size, .08, 30, 200);

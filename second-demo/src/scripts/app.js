@@ -1,7 +1,7 @@
 import 'styles/index.scss';
 import Cone from './elements/cone';
 import Box from './elements/box';
-import Tourus from './elements/tourus';
+import Torus from './elements/torus';
 import { radians, map, distance, hexToRgbTreeJs } from './helpers';
 
 export default class App {
@@ -20,7 +20,7 @@ export default class App {
     this.repulsion = 1;
     this.geometries = [
       new Box(),
-      new Tourus(),
+      new Torus(),
       new Cone()
     ];
 
