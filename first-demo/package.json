@@ -21,7 +21,7 @@
   "author": "Ion D. Filho <iondrimba@gmail.com> (https://iondrimbafilho.me)",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.1.6",
+    "@babel/core": "^7.5.0",
     "@babel/preset-env": "^7.1.6",
     "babel-core": "^6.7.0",
     "babel-loader": "^8.0.2",
