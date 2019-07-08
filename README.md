@@ -1,5 +1,7 @@
 # Interactive Repulsion Effect with Three.js
 
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=iondrimba/interactive-repulsive-effect)](https://dependabot.com)
+
 A tutorial on how to recreate the interactive repulsion effect of grid items seen in BestServedBold's Dribbble shot ["Holographic-Interactions"](https://dribbble.com/shots/5515695-Holographic-Interactions). By Ion D. Filho.
 
 ![Image Title](https://raw.githubusercontent.com/iondrimba/images/master/perrin.gif)
