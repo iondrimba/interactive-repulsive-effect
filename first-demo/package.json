@@ -36,13 +36,13 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
-    "webpack": "^4.38.0",
+    "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2",
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
-    "three": "^0.106.2",
+    "three": "^0.107.0",
     "threejs-controls": "^1.0.6"
   }
 }
