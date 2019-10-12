@@ -42,7 +42,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "three": "^0.108.0",
+    "three": "^0.109.0",
     "threejs-controls": "^1.0.6"
   }
 }
