@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
@@ -33,7 +34,14 @@ module.exports = {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV)
       }
     }),
-    new CleanWebpackPlugin({ cleanOnceBeforeBuildPatterns: ['public'] }),
+    new CleanWebpackPlugin({ cleanOnceBeforeBuildPatterns: ['app.*'] }),
+    new CopyPlugin({
+      patterns: [
+        { from: "./src/scripts/vendor/three.r123.min.js", to: "three.r123.min.js" },
+        { from: "./src/scripts/vendor/roundedBox.js", to: "roundedBox.js" },
+        { from: "./src/scripts/vendor/TweenMax.1.20.3.min.js", to: "TweenMax.1.20.3.min.js" },
+      ],
+    }),
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'src/index.html'
